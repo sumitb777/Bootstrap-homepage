@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2: Bootstrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />    
+</head>
+<body>
+    <section class="container-fluid  ">
+       
+      <section class="row "> 
+        <section class="col-12 main ">
+                        <!--                                             Header                           -->
+           <header>
+              <div class=" align-items-center  d-md-none d-none d-sm-none  d-lg-flex justify-content-end   mt-lg-4   mb-5 ">
+                <button class="btn text-white ">Login</button>
+                <button class="btn text-white border-white  ">Create An Account</button>
+              </div>
+            </header>
+                       <!--                                              Header End Here                  -->
+                       <!--                                              Main Section Starts                -->
+           <section class="main2 d-flex flex-column gap-3 mt-5 align-items-center ">  
+                                                 
+               <div class="logo d-flex  justify-content-center   bg-light rounded-circle ">
+                   <p  class="lg text-center text-danger pt-3   fw-bold  ">e!</p>
+               </div>          
+               <div class="row mb-2 ">
+                   <p class="ps-md-4 ps-4 text-center  fs-1 fw-bold  text-white  ">Find the best restaurants, cafés, and bars</p>
+               </div>
+            
+                <!--                                  Input boxes                                    -->
+                <section class=" col-lg-6 col-md-10 col-sm-10 col-10  mb-5  d-flex  flex-lg-row flex-column  
+                               flex-sm-column flex-md-column gap-md-4 gap-sm-4 gap-4 ">
+                <div class="input-group   search-location ">
+                  
+                   <input type="text" class=" form-control rounded-0 py-3  " placeholder="Please type a location" aria-label="Please type a location"> 
+                   
+                </div>
+                <div class="input-group       ">
+                   <span class="input-group-text rounded-0 p-3  " id="basic-addon1"><i class=" fs-6 mx-2  fa-solid fa-magnifying-glass fa-2xs"></i></span>
+                   <input type="text" class="form-control rounded-0 py-3   " placeholder="Search for restaurants" aria-label="Search for restaurants" aria-describedby="basic-addon1">
+                </div>
+                
+              </section>
+             
+           </section>
+                       <!--                                               Man Section Rnd                           -->
+       </section>
+      </section>
+      <section class="row ">
+          <section class="col-10 m-auto py-2 mt-3 ">           
+              
+                 <p class="h2 text-black  fw-bolder   my-3  ">Quick Searches</p>
+                 <p class="mt-2 ">Discover restaurants by type of meal</p>
+            
+            </section>
+      </section>       
+
+                    <!--                                                 Restaurant Info Boxes            -->
+            <section class="row gap-4 justify-content-center my-3  ">             
+                <div class="col-11 col-sm-11 col-lg-3 col-md-11  mx-3  d-flex  border shadow  gap-4  ps-0  pe-4 ">
+                   <img class="ps-0 pt-0  " src="/image/breakfast.png" alt="">
+                   <div class="pt-3">
+                     <h3 class="fs-5 fw-bold  ">Breakfast</h3>
+                     <p>Start your day with exclusive breakfast options</p>
+                   </div>
+
+                </div>
+                <div class="col-11 col-sm-11 col-lg-3 col-md-11 mx-3   d-flex  border shadow gap-4 p-0 pe-4  ">
+                  <img class="ps-0 pt-0   " src="/image/lunch.png" alt="">
+                   <div class="pt-3">
+                     <h3 class="fs-5 fw-bold  ">Lunch</h3>
+                    <p>Start your day  with exclusive breakfast  options</p>
+                   </div>
+
+                </div> 
+                <div class="col-11 col-sm-11 col-lg-3 col-md-11 mx-3  d-flex  border shadow gap-4 p-0 pe-4  ">
+                  <img class="ps-0 pt-0   " src="/image/snaks.png" alt="">
+                  <div class="pt-3">
+                    <h3 class="fs-5 fw-bold  ">Snacks</h3>
+                    <p>Start your day  with exclusive breakfast  options</p>
+               </div>
+
+                 </div>       
+         </section>
+        <section class="row justify-content-center  gap-lg-4 gap-4   my-5 ">
+          <div class="col-11 col-sm-11 col-lg-3 col-md-11 mx-3  d-flex  border shadow gap-4 p-0 pe-4 ">
+            <img class="ps-0 pt-0" src="/image/dinner.png" alt="">
+            <div class="pt-3">
+              <h3 class="fs-5 fw-bold  ">Dinner</h3>
+              <p>Start your day  with exclusive breakfast options</p>
+            </div>
+  
+          </div>
+          <div class="col-11 col-sm-11 col-lg-3 col-md-11 mx-3  d-flex  border shadow gap-4 p-0 pe-4 ">
+              <img class="ps-0 pt-0  " src="/image/drinks.png" alt="">
+              <div class="pt-3">
+                <h3 class="fs-5 fw-bold  ">Drinks</h3>
+                <p>Start your day  with exclusive breakfast  options</p>
+               </div>
+  
+         </div> 
+             <div class="col-11 col-sm-11 col-lg-3 col-md-11 mx-3  d-flex  border shadow gap-4 p-0 pe-4   ">
+                  <img class="ps-0 pt-0  " src="/image/nightlife.png" alt="">
+               <div class="pt-3">
+                   <h3 class="fs-5 fw-bold  ">Nightlife</h3>
+                   <p>Start your day  with exclusive breakfast  options</p>
+                </div>
+  
+             </div> 
+        </section> 
+    </section>
+</body>
+</html>
