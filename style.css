@@ -2,7 +2,7 @@ body{
     font-family: poppins !important;
 }
 .main{  
-    background-image:linear-gradient(  transparent,#4f0707c7), url(/image/shutterstock_348320018.png);
+    background-image:linear-gradient(  transparent,#4f0707c7), url(./image/shutterstock_348320018.png);
     background-size: 100% ;
     background-position: center;
     /* background-repeat: no-repeat; */
